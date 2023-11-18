@@ -40,7 +40,7 @@ jobs:
         run: yarn
 
       - name: Generate
-        run: yarn run build
+        run: yarn run build --base=/wotw-scenes-map
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
